@@ -1,0 +1,37 @@
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+body {
+	background-color:silver;
+	font-family:sans-serif;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#container {
+	width:200px;
+	margin:20px auto;
+	text-align:center;
+}
+
+#container label {
+	line-height:32px;
+}
+
+#container input, button {
+	padding:10px;
+}
+
+#container input {
+	width:200px;
+	text-align:center;
+}
+
+#container button {
+	margin:10px 0;
+}
